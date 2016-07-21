@@ -7,13 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		18D37A6E1D3B6DD700FC5E9A /* Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D37A6D1D3B6DD700FC5E9A /* Factory.m */; };
+		18AAD4F61D3CDE9800B33C74 /* Poetry.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 18AAD4F51D3CDE9800B33C74 /* Poetry.bundle */; };
+		18AAD4F91D3D0FFF00B33C74 /* KindModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AAD4F81D3D0FFF00B33C74 /* KindModel.m */; };
+		18AAD4FC1D3D176E00B33C74 /* KindViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AAD4FB1D3D176E00B33C74 /* KindViewModel.m */; };
+		18AAD4FF1D3DCBAA00B33C74 /* PoetryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AAD4FE1D3DCBAA00B33C74 /* PoetryViewController.m */; };
+		18AAD50B1D3E067E00B33C74 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AAD50A1D3E067E00B33C74 /* LeftViewController.m */; };
+		18AAD50E1D3E06A800B33C74 /* GameInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AAD50D1D3E06A800B33C74 /* GameInfoViewController.m */; };
+		18AAD5111D3E0F7A00B33C74 /* GameInfoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AAD5101D3E0F7A00B33C74 /* GameInfoListViewController.m */; };
+		18AAD5141D3E0FE400B33C74 /* GameInfoHtmlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AAD5131D3E0FE400B33C74 /* GameInfoHtmlViewController.m */; };
+		18AAD5171D3E101000B33C74 /* GameInfoPicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AAD5161D3E101000B33C74 /* GameInfoPicViewController.m */; };
+		18AAD51A1D3E108100B33C74 /* GameInfoViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AAD5191D3E108100B33C74 /* GameInfoViewModel.m */; };
+		18AAD51D1D3E10A200B33C74 /* GameInfoPicViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AAD51C1D3E10A200B33C74 /* GameInfoPicViewModel.m */; };
+		18AAD5201D3E10EC00B33C74 /* GameInfoNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AAD51F1D3E10EC00B33C74 /* GameInfoNetManager.m */; };
+		18AAD5231D3E113700B33C74 /* GameInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AAD5221D3E113700B33C74 /* GameInfoModel.m */; };
+		18AAD5261D3E115200B33C74 /* GameInfoPicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AAD5251D3E115200B33C74 /* GameInfoPicModel.m */; };
+		18AAD5291D3E151D00B33C74 /* LOLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AAD5281D3E151D00B33C74 /* LOLViewController.m */; };
+		18AAD52C1D3E1C9A00B33C74 /* Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AAD52B1D3E1C9A00B33C74 /* Factory.m */; };
+		18AAD52F1D3E297C00B33C74 /* GameInfoListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AAD52E1D3E297C00B33C74 /* GameInfoListCell.m */; };
+		18AAD5321D3E29BB00B33C74 /* TRImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AAD5311D3E29BB00B33C74 /* TRImageView.m */; };
+		18AAD5351D3E2A3700B33C74 /* GameInfoImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AAD5341D3E2A3700B33C74 /* GameInfoImageCell.m */; };
+		18D37F7A1D3E752B005D046B /* KindIntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D37F791D3E752B005D046B /* KindIntroViewController.m */; };
+		18D37F7D1D3F357D005D046B /* PoetryListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D37F7C1D3F357D005D046B /* PoetryListViewController.m */; };
+		18D37F801D3F35D9005D046B /* PoetryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D37F7F1D3F35D9005D046B /* PoetryModel.m */; };
+		18D37F831D3F3D0C005D046B /* PoetryViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D37F821D3F3D0C005D046B /* PoetryViewModel.m */; };
+		18D37F861D3F4F48005D046B /* PoetryDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D37F851D3F4F48005D046B /* PoetryDetailViewController.m */; };
+		18D37F891D3F7335005D046B /* SearchPoetryViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D37F881D3F7335005D046B /* SearchPoetryViewModel.m */; };
 		212437CF0CF61B8290DED0FB /* libPods-BaseProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 847027E429826FFA29696D42 /* libPods-BaseProject.a */; };
 		3804CE511BD758F10046C8C8 /* AppDelegate+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 3804CE4A1BD758F10046C8C8 /* AppDelegate+Category.m */; };
 		3804CE521BD758F10046C8C8 /* NSObject+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 3804CE4C1BD758F10046C8C8 /* NSObject+Common.m */; };
 		3804CE531BD758F10046C8C8 /* NSString+PJR.m in Sources */ = {isa = PBXBuildFile; fileRef = 3804CE4E1BD758F10046C8C8 /* NSString+PJR.m */; };
 		3804CE541BD758F10046C8C8 /* NSString+QRCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3804CE501BD758F10046C8C8 /* NSString+QRCode.m */; };
-		3835CFB71BD90E150024CA48 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3835CFB61BD90E150024CA48 /* ViewController.m */; };
 		3879FE811BDFA8E100A99990 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3879FE801BDFA8E100A99990 /* libsqlite3.0.tbd */; };
 		3885C8981BE8E88D009441EA /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3885C8971BE8E88D009441EA /* iCarousel.m */; };
 		3885C8F71BE8E96A009441EA /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 3885C8F01BE8E96A009441EA /* .gitignore */; };
@@ -40,8 +63,55 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		18D37A6C1D3B6DD700FC5E9A /* Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Factory.h; sourceTree = "<group>"; };
-		18D37A6D1D3B6DD700FC5E9A /* Factory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Factory.m; sourceTree = "<group>"; };
+		18AAD4F51D3CDE9800B33C74 /* Poetry.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Poetry.bundle; sourceTree = "<group>"; };
+		18AAD4F71D3D0FFF00B33C74 /* KindModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KindModel.h; sourceTree = "<group>"; };
+		18AAD4F81D3D0FFF00B33C74 /* KindModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KindModel.m; sourceTree = "<group>"; };
+		18AAD4FA1D3D176E00B33C74 /* KindViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KindViewModel.h; sourceTree = "<group>"; };
+		18AAD4FB1D3D176E00B33C74 /* KindViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KindViewModel.m; sourceTree = "<group>"; };
+		18AAD4FD1D3DCBAA00B33C74 /* PoetryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PoetryViewController.h; sourceTree = "<group>"; };
+		18AAD4FE1D3DCBAA00B33C74 /* PoetryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PoetryViewController.m; sourceTree = "<group>"; };
+		18AAD5091D3E067E00B33C74 /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
+		18AAD50A1D3E067E00B33C74 /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
+		18AAD50C1D3E06A800B33C74 /* GameInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameInfoViewController.h; sourceTree = "<group>"; };
+		18AAD50D1D3E06A800B33C74 /* GameInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameInfoViewController.m; sourceTree = "<group>"; };
+		18AAD50F1D3E0F7A00B33C74 /* GameInfoListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameInfoListViewController.h; sourceTree = "<group>"; };
+		18AAD5101D3E0F7A00B33C74 /* GameInfoListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameInfoListViewController.m; sourceTree = "<group>"; };
+		18AAD5121D3E0FE400B33C74 /* GameInfoHtmlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameInfoHtmlViewController.h; sourceTree = "<group>"; };
+		18AAD5131D3E0FE400B33C74 /* GameInfoHtmlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameInfoHtmlViewController.m; sourceTree = "<group>"; };
+		18AAD5151D3E101000B33C74 /* GameInfoPicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameInfoPicViewController.h; sourceTree = "<group>"; };
+		18AAD5161D3E101000B33C74 /* GameInfoPicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameInfoPicViewController.m; sourceTree = "<group>"; };
+		18AAD5181D3E108100B33C74 /* GameInfoViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameInfoViewModel.h; sourceTree = "<group>"; };
+		18AAD5191D3E108100B33C74 /* GameInfoViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameInfoViewModel.m; sourceTree = "<group>"; };
+		18AAD51B1D3E10A200B33C74 /* GameInfoPicViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameInfoPicViewModel.h; sourceTree = "<group>"; };
+		18AAD51C1D3E10A200B33C74 /* GameInfoPicViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameInfoPicViewModel.m; sourceTree = "<group>"; };
+		18AAD51E1D3E10EC00B33C74 /* GameInfoNetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameInfoNetManager.h; sourceTree = "<group>"; };
+		18AAD51F1D3E10EC00B33C74 /* GameInfoNetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameInfoNetManager.m; sourceTree = "<group>"; };
+		18AAD5211D3E113700B33C74 /* GameInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameInfoModel.h; sourceTree = "<group>"; };
+		18AAD5221D3E113700B33C74 /* GameInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameInfoModel.m; sourceTree = "<group>"; };
+		18AAD5241D3E115200B33C74 /* GameInfoPicModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameInfoPicModel.h; sourceTree = "<group>"; };
+		18AAD5251D3E115200B33C74 /* GameInfoPicModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameInfoPicModel.m; sourceTree = "<group>"; };
+		18AAD5271D3E151D00B33C74 /* LOLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOLViewController.h; sourceTree = "<group>"; };
+		18AAD5281D3E151D00B33C74 /* LOLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOLViewController.m; sourceTree = "<group>"; };
+		18AAD52A1D3E1C9A00B33C74 /* Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Factory.h; sourceTree = "<group>"; };
+		18AAD52B1D3E1C9A00B33C74 /* Factory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Factory.m; sourceTree = "<group>"; };
+		18AAD52D1D3E297C00B33C74 /* GameInfoListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameInfoListCell.h; sourceTree = "<group>"; };
+		18AAD52E1D3E297C00B33C74 /* GameInfoListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameInfoListCell.m; sourceTree = "<group>"; };
+		18AAD5301D3E29BB00B33C74 /* TRImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRImageView.h; sourceTree = "<group>"; };
+		18AAD5311D3E29BB00B33C74 /* TRImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRImageView.m; sourceTree = "<group>"; };
+		18AAD5331D3E2A3700B33C74 /* GameInfoImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameInfoImageCell.h; sourceTree = "<group>"; };
+		18AAD5341D3E2A3700B33C74 /* GameInfoImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameInfoImageCell.m; sourceTree = "<group>"; };
+		18D37F781D3E752B005D046B /* KindIntroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KindIntroViewController.h; sourceTree = "<group>"; };
+		18D37F791D3E752B005D046B /* KindIntroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KindIntroViewController.m; sourceTree = "<group>"; };
+		18D37F7B1D3F357D005D046B /* PoetryListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PoetryListViewController.h; sourceTree = "<group>"; };
+		18D37F7C1D3F357D005D046B /* PoetryListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PoetryListViewController.m; sourceTree = "<group>"; };
+		18D37F7E1D3F35D9005D046B /* PoetryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PoetryModel.h; sourceTree = "<group>"; };
+		18D37F7F1D3F35D9005D046B /* PoetryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PoetryModel.m; sourceTree = "<group>"; };
+		18D37F811D3F3D0C005D046B /* PoetryViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PoetryViewModel.h; sourceTree = "<group>"; };
+		18D37F821D3F3D0C005D046B /* PoetryViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PoetryViewModel.m; sourceTree = "<group>"; };
+		18D37F841D3F4F48005D046B /* PoetryDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PoetryDetailViewController.h; sourceTree = "<group>"; };
+		18D37F851D3F4F48005D046B /* PoetryDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PoetryDetailViewController.m; sourceTree = "<group>"; };
+		18D37F871D3F7335005D046B /* SearchPoetryViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchPoetryViewModel.h; sourceTree = "<group>"; };
+		18D37F881D3F7335005D046B /* SearchPoetryViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchPoetryViewModel.m; sourceTree = "<group>"; };
 		218423E71B9FA0C3179DF394 /* Pods-BaseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject.release.xcconfig"; sourceTree = "<group>"; };
 		3804CE491BD758F10046C8C8 /* AppDelegate+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+Category.h"; sourceTree = "<group>"; };
 		3804CE4A1BD758F10046C8C8 /* AppDelegate+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+Category.m"; sourceTree = "<group>"; };
@@ -51,8 +121,6 @@
 		3804CE4E1BD758F10046C8C8 /* NSString+PJR.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+PJR.m"; sourceTree = "<group>"; };
 		3804CE4F1BD758F10046C8C8 /* NSString+QRCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+QRCode.h"; sourceTree = "<group>"; };
 		3804CE501BD758F10046C8C8 /* NSString+QRCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+QRCode.m"; sourceTree = "<group>"; };
-		3835CFB51BD90E150024CA48 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3835CFB61BD90E150024CA48 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3879FE801BDFA8E100A99990 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		3879FE9D1BDFDD2400A99990 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		3885C8961BE8E88D009441EA /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
@@ -113,6 +181,127 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18AAD4ED1D3CCB8400B33C74 /* 诗词歌赋 */ = {
+			isa = PBXGroup;
+			children = (
+				18AAD4FA1D3D176E00B33C74 /* KindViewModel.h */,
+				18AAD4FB1D3D176E00B33C74 /* KindViewModel.m */,
+				18D37F811D3F3D0C005D046B /* PoetryViewModel.h */,
+				18D37F821D3F3D0C005D046B /* PoetryViewModel.m */,
+				18D37F871D3F7335005D046B /* SearchPoetryViewModel.h */,
+				18D37F881D3F7335005D046B /* SearchPoetryViewModel.m */,
+			);
+			path = "诗词歌赋";
+			sourceTree = "<group>";
+		};
+		18AAD4EE1D3CCB9F00B33C74 /* 音频视频 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "音频视频";
+			sourceTree = "<group>";
+		};
+		18AAD4EF1D3CCBAF00B33C74 /* 英雄联盟 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "英雄联盟";
+			sourceTree = "<group>";
+		};
+		18AAD4F01D3CCBB900B33C74 /* 游戏资讯 */ = {
+			isa = PBXGroup;
+			children = (
+				18AAD5181D3E108100B33C74 /* GameInfoViewModel.h */,
+				18AAD5191D3E108100B33C74 /* GameInfoViewModel.m */,
+				18AAD51B1D3E10A200B33C74 /* GameInfoPicViewModel.h */,
+				18AAD51C1D3E10A200B33C74 /* GameInfoPicViewModel.m */,
+			);
+			path = "游戏资讯";
+			sourceTree = "<group>";
+		};
+		18AAD4F11D3CCBDC00B33C74 /* 诗词歌赋 */ = {
+			isa = PBXGroup;
+			children = (
+				18AAD4FD1D3DCBAA00B33C74 /* PoetryViewController.h */,
+				18AAD4FE1D3DCBAA00B33C74 /* PoetryViewController.m */,
+				18D37F781D3E752B005D046B /* KindIntroViewController.h */,
+				18D37F791D3E752B005D046B /* KindIntroViewController.m */,
+				18D37F7B1D3F357D005D046B /* PoetryListViewController.h */,
+				18D37F7C1D3F357D005D046B /* PoetryListViewController.m */,
+				18D37F841D3F4F48005D046B /* PoetryDetailViewController.h */,
+				18D37F851D3F4F48005D046B /* PoetryDetailViewController.m */,
+			);
+			path = "诗词歌赋";
+			sourceTree = "<group>";
+		};
+		18AAD4F21D3CCBE900B33C74 /* 音频视频 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "音频视频";
+			sourceTree = "<group>";
+		};
+		18AAD4F31D3CCBF600B33C74 /* 英雄联盟 */ = {
+			isa = PBXGroup;
+			children = (
+				18AAD5271D3E151D00B33C74 /* LOLViewController.h */,
+				18AAD5281D3E151D00B33C74 /* LOLViewController.m */,
+			);
+			name = "英雄联盟";
+			path = "音频视频";
+			sourceTree = "<group>";
+		};
+		18AAD4F41D3CCC0200B33C74 /* 游戏资讯 */ = {
+			isa = PBXGroup;
+			children = (
+				18AAD50C1D3E06A800B33C74 /* GameInfoViewController.h */,
+				18AAD50D1D3E06A800B33C74 /* GameInfoViewController.m */,
+				18AAD50F1D3E0F7A00B33C74 /* GameInfoListViewController.h */,
+				18AAD5101D3E0F7A00B33C74 /* GameInfoListViewController.m */,
+				18AAD5121D3E0FE400B33C74 /* GameInfoHtmlViewController.h */,
+				18AAD5131D3E0FE400B33C74 /* GameInfoHtmlViewController.m */,
+				18AAD5151D3E101000B33C74 /* GameInfoPicViewController.h */,
+				18AAD5161D3E101000B33C74 /* GameInfoPicViewController.m */,
+			);
+			path = "游戏资讯";
+			sourceTree = "<group>";
+		};
+		18D37A6F1D3CC8B700FC5E9A /* 诗词歌赋 */ = {
+			isa = PBXGroup;
+			children = (
+				18AAD4F71D3D0FFF00B33C74 /* KindModel.h */,
+				18AAD4F81D3D0FFF00B33C74 /* KindModel.m */,
+				18D37F7E1D3F35D9005D046B /* PoetryModel.h */,
+				18D37F7F1D3F35D9005D046B /* PoetryModel.m */,
+			);
+			path = "诗词歌赋";
+			sourceTree = "<group>";
+		};
+		18D37A701D3CC8B700FC5E9A /* 音频视频 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "音频视频";
+			sourceTree = "<group>";
+		};
+		18D37A711D3CC8B700FC5E9A /* 英雄联盟 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "英雄联盟";
+			sourceTree = "<group>";
+		};
+		18D37A721D3CC8B700FC5E9A /* 游戏资讯 */ = {
+			isa = PBXGroup;
+			children = (
+				18AAD5211D3E113700B33C74 /* GameInfoModel.h */,
+				18AAD5221D3E113700B33C74 /* GameInfoModel.m */,
+				18AAD5241D3E115200B33C74 /* GameInfoPicModel.h */,
+				18AAD5251D3E115200B33C74 /* GameInfoPicModel.m */,
+			);
+			path = "游戏资讯";
+			sourceTree = "<group>";
+		};
 		3804CE481BD758F10046C8C8 /* Category */ = {
 			isa = PBXGroup;
 			children = (
@@ -208,6 +397,10 @@
 		3886C0B01BD74A4A0014E661 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				18D37A6F1D3CC8B700FC5E9A /* 诗词歌赋 */,
+				18D37A701D3CC8B700FC5E9A /* 音频视频 */,
+				18D37A711D3CC8B700FC5E9A /* 英雄联盟 */,
+				18D37A721D3CC8B700FC5E9A /* 游戏资讯 */,
 				3886C0BF1BD74B090014E661 /* BaseModel.h */,
 				3886C0C01BD74B090014E661 /* BaseModel.m */,
 			);
@@ -219,6 +412,8 @@
 			children = (
 				3886C0BC1BD74AFE0014E661 /* BaseNetManager.h */,
 				3886C0BD1BD74AFE0014E661 /* BaseNetManager.m */,
+				18AAD51E1D3E10EC00B33C74 /* GameInfoNetManager.h */,
+				18AAD51F1D3E10EC00B33C74 /* GameInfoNetManager.m */,
 			);
 			path = NetManager;
 			sourceTree = "<group>";
@@ -226,6 +421,7 @@
 		3886C0B21BD74A4A0014E661 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				18AAD4F51D3CDE9800B33C74 /* Poetry.bundle */,
 				3886C0A21BD748830014E661 /* Assets.xcassets */,
 				3886C0AD1BD749A00014E661 /* LaunchScreen.xib */,
 				3886C09F1BD748830014E661 /* Main.storyboard */,
@@ -237,8 +433,8 @@
 		3886C0B31BD74A4A0014E661 /* Util */ = {
 			isa = PBXGroup;
 			children = (
-				18D37A6C1D3B6DD700FC5E9A /* Factory.h */,
-				18D37A6D1D3B6DD700FC5E9A /* Factory.m */,
+				18AAD52A1D3E1C9A00B33C74 /* Factory.h */,
+				18AAD52B1D3E1C9A00B33C74 /* Factory.m */,
 				3804CE481BD758F10046C8C8 /* Category */,
 			);
 			path = Util;
@@ -256,6 +452,12 @@
 		3886C0B51BD74A4A0014E661 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				18AAD5301D3E29BB00B33C74 /* TRImageView.h */,
+				18AAD5311D3E29BB00B33C74 /* TRImageView.m */,
+				18AAD52D1D3E297C00B33C74 /* GameInfoListCell.h */,
+				18AAD52E1D3E297C00B33C74 /* GameInfoListCell.m */,
+				18AAD5331D3E2A3700B33C74 /* GameInfoImageCell.h */,
+				18AAD5341D3E2A3700B33C74 /* GameInfoImageCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -263,8 +465,12 @@
 		3886C0B61BD74A4A0014E661 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				3835CFB51BD90E150024CA48 /* ViewController.h */,
-				3835CFB61BD90E150024CA48 /* ViewController.m */,
+				18AAD5091D3E067E00B33C74 /* LeftViewController.h */,
+				18AAD50A1D3E067E00B33C74 /* LeftViewController.m */,
+				18AAD4F41D3CCC0200B33C74 /* 游戏资讯 */,
+				18AAD4F31D3CCBF600B33C74 /* 英雄联盟 */,
+				18AAD4F21D3CCBE900B33C74 /* 音频视频 */,
+				18AAD4F11D3CCBDC00B33C74 /* 诗词歌赋 */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -272,6 +478,10 @@
 		3886C0B71BD74A4A0014E661 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				18AAD4F01D3CCBB900B33C74 /* 游戏资讯 */,
+				18AAD4EF1D3CCBAF00B33C74 /* 英雄联盟 */,
+				18AAD4EE1D3CCB9F00B33C74 /* 音频视频 */,
+				18AAD4ED1D3CCB8400B33C74 /* 诗词歌赋 */,
 				3886C0B91BD74AE90014E661 /* BaseViewModel.h */,
 				3886C0BA1BD74AE90014E661 /* BaseViewModel.m */,
 			);
@@ -338,6 +548,7 @@
 				TargetAttributes = {
 					3886C0921BD748830014E661 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 29T43SYURW;
 					};
 				};
 			};
@@ -365,6 +576,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18AAD4F61D3CDE9800B33C74 /* Poetry.bundle in Resources */,
 				3886C0A31BD748830014E661 /* Assets.xcassets in Resources */,
 				3885C8F71BE8E96A009441EA /* .gitignore in Resources */,
 				3885C8F81BE8E96A009441EA /* LICENSE in Resources */,
@@ -428,19 +640,41 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18AAD51A1D3E108100B33C74 /* GameInfoViewModel.m in Sources */,
+				18AAD50E1D3E06A800B33C74 /* GameInfoViewController.m in Sources */,
+				18AAD5261D3E115200B33C74 /* GameInfoPicModel.m in Sources */,
 				3886C0BE1BD74AFE0014E661 /* BaseNetManager.m in Sources */,
+				18D37F861D3F4F48005D046B /* PoetryDetailViewController.m in Sources */,
+				18AAD5291D3E151D00B33C74 /* LOLViewController.m in Sources */,
+				18D37F7A1D3E752B005D046B /* KindIntroViewController.m in Sources */,
 				3804CE541BD758F10046C8C8 /* NSString+QRCode.m in Sources */,
+				18D37F891D3F7335005D046B /* SearchPoetryViewModel.m in Sources */,
+				18D37F831D3F3D0C005D046B /* PoetryViewModel.m in Sources */,
 				3885C8FA1BE8E96A009441EA /* PSCollectionViewCell.m in Sources */,
+				18D37F801D3F35D9005D046B /* PoetryModel.m in Sources */,
+				18AAD4F91D3D0FFF00B33C74 /* KindModel.m in Sources */,
+				18AAD4FF1D3DCBAA00B33C74 /* PoetryViewController.m in Sources */,
 				3804CE531BD758F10046C8C8 /* NSString+PJR.m in Sources */,
 				3885C8F91BE8E96A009441EA /* PSCollectionView.m in Sources */,
 				3886C09B1BD748830014E661 /* AppDelegate.m in Sources */,
 				3885C8981BE8E88D009441EA /* iCarousel.m in Sources */,
-				3835CFB71BD90E150024CA48 /* ViewController.m in Sources */,
+				18AAD50B1D3E067E00B33C74 /* LeftViewController.m in Sources */,
+				18AAD5171D3E101000B33C74 /* GameInfoPicViewController.m in Sources */,
 				3804CE511BD758F10046C8C8 /* AppDelegate+Category.m in Sources */,
+				18AAD5321D3E29BB00B33C74 /* TRImageView.m in Sources */,
+				18AAD5111D3E0F7A00B33C74 /* GameInfoListViewController.m in Sources */,
+				18AAD5351D3E2A3700B33C74 /* GameInfoImageCell.m in Sources */,
+				18AAD5201D3E10EC00B33C74 /* GameInfoNetManager.m in Sources */,
+				18AAD51D1D3E10A200B33C74 /* GameInfoPicViewModel.m in Sources */,
 				3886C0BB1BD74AE90014E661 /* BaseViewModel.m in Sources */,
-				18D37A6E1D3B6DD700FC5E9A /* Factory.m in Sources */,
+				18AAD52C1D3E1C9A00B33C74 /* Factory.m in Sources */,
+				18AAD5141D3E0FE400B33C74 /* GameInfoHtmlViewController.m in Sources */,
 				3885C8FB1BE8E96A009441EA /* README.md in Sources */,
+				18AAD5231D3E113700B33C74 /* GameInfoModel.m in Sources */,
+				18D37F7D1D3F357D005D046B /* PoetryListViewController.m in Sources */,
+				18AAD4FC1D3D176E00B33C74 /* KindViewModel.m in Sources */,
 				3886C0C11BD74B090014E661 /* BaseModel.m in Sources */,
+				18AAD52F1D3E297C00B33C74 /* GameInfoListCell.m in Sources */,
 				3886C0981BD748830014E661 /* main.m in Sources */,
 				3804CE521BD758F10046C8C8 /* NSObject+Common.m in Sources */,
 			);
@@ -547,6 +781,8 @@
 			baseConfigurationReference = 74C1BC7569ACEE2D7BF41516 /* Pods-BaseProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/BaseProject/Vendor/umeng_ios_social_sdk_4.2-2.5_arm64_custom/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
@@ -562,8 +798,9 @@
 					"$(PROJECT_DIR)/BaseProject/Vendor/umeng_ios_social_sdk_4.2-2.5_arm64_custom/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
 					"$(PROJECT_DIR)/BaseProject/Vendor/umeng_ios_social_sdk_4.2-2.5_arm64_custom/UMSocial_Sdk_Extra_Frameworks/Wechat",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tarena.BaseProject;
+				PRODUCT_BUNDLE_IDENTIFIER = "-88com.tarena.BaseProject";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -572,6 +809,8 @@
 			baseConfigurationReference = 218423E71B9FA0C3179DF394 /* Pods-BaseProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/BaseProject/Vendor/umeng_ios_social_sdk_4.2-2.5_arm64_custom/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
@@ -587,8 +826,9 @@
 					"$(PROJECT_DIR)/BaseProject/Vendor/umeng_ios_social_sdk_4.2-2.5_arm64_custom/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
 					"$(PROJECT_DIR)/BaseProject/Vendor/umeng_ios_social_sdk_4.2-2.5_arm64_custom/UMSocial_Sdk_Extra_Frameworks/Wechat",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tarena.BaseProject;
+				PRODUCT_BUNDLE_IDENTIFIER = "-88com.tarena.BaseProject";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

@@ -12,5 +12,16 @@
 
 MJCodingImplementation
 
++(FMDatabase *)defaultDatabase{
+    static FMDatabase *db = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        NSString *path = [kDocumentPath stringByAppendingPathComponent:@"sqlite.db"];
+        db = [FMDatabase databaseWithPath:path];
+    });
+    [db open];
+    return db;
+}
+
 @end
 

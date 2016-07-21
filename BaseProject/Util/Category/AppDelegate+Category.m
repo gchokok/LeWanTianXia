@@ -8,7 +8,8 @@
 
 #import "AppDelegate+Category.h"
 #import <AFNetworkActivityIndicatorManager.h>
-
+#import "UMMobClick/MobClick.h"
+#import <MLTransition.h>
 @implementation AppDelegate (Category)
 
 - (void)initializeWithApplication:(UIApplication *)application{
@@ -34,8 +35,16 @@
         }
     }];
     [[AFNetworkReachabilityManager sharedManager] startMonitoring];
+    //启动友盟统计功能,用你自己的友盟AppKey，这样你可以在友盟统计上看到数据
+    UMConfigInstance.appKey = @"57762d87e0f55afbc9002ce2";
+    UMConfigInstance.channelId = @"App Store";
+    [MobClick startWithConfigure:UMConfigInstance];
+    //友盟统计默认情况下会关闭掉xcode默认的crash提示
+    [MobClick setLogEnabled:YES];
+    
+    //解决因为使用leftItem导致iOS7自带的右划返回前一页失效问题
+    [MLTransition validatePanPackWithMLTransitionGestureRecognizerType:MLTransitionGestureRecognizerTypeScreenEdgePan];
 }
-
 
 
 - (void)applicationWillResignActive:(UIApplication *)application {
