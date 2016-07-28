@@ -7,6 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1886C7AB1D40BBB4001714CD /* AlbumModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1886C7A81D40BBB4001714CD /* AlbumModel.m */; };
+		1886C7AC1D40BBB4001714CD /* RankingListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1886C7AA1D40BBB4001714CD /* RankingListModel.m */; };
+		1886C7B11D40BC5B001714CD /* MultimediaNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1886C7B01D40BC5B001714CD /* MultimediaNetManager.m */; };
+		1886C7B71D40CE4B001714CD /* MultimediaTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1886C7B61D40CE4B001714CD /* MultimediaTabBarController.m */; };
+		1886C7BA1D40CF2B001714CD /* MusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1886C7B91D40CF2B001714CD /* MusicViewController.m */; };
+		1886C7BD1D40CF58001714CD /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1886C7BC1D40CF58001714CD /* VideoViewController.m */; };
+		1886C7C01D40CF8A001714CD /* CrosstalkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1886C7BF1D40CF8A001714CD /* CrosstalkViewController.m */; };
+		1886C7C31D4203A2001714CD /* MusicCategoryViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1886C7C21D4203A2001714CD /* MusicCategoryViewModel.m */; };
+		1886C7C91D42042C001714CD /* MusicListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1886C7C81D42042C001714CD /* MusicListViewController.m */; };
+		1886C7CC1D420488001714CD /* MusicCategoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1886C7CB1D420488001714CD /* MusicCategoryCell.m */; };
+		1886C7CF1D4204FC001714CD /* MusicDetailViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1886C7CE1D4204FC001714CD /* MusicDetailViewModel.m */; };
+		1886C7D21D42052B001714CD /* MusicDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1886C7D11D42052B001714CD /* MusicDetailCell.m */; };
+		1886C7D51D42147B001714CD /* MultimediaPlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1886C7D41D42147B001714CD /* MultimediaPlayView.m */; };
+		1886C7D81D46EC4F001714CD /* CrosstalkModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1886C7D71D46EC4F001714CD /* CrosstalkModel.m */; };
+		1886C7DB1D46F49A001714CD /* CrosstalkViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1886C7DA1D46F49A001714CD /* CrosstalkViewModel.m */; };
+		1886C7DE1D46F9EA001714CD /* CrosstalkCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1886C7DD1D46F9EA001714CD /* CrosstalkCell.m */; };
+		1886C7E11D470DEB001714CD /* VideoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1886C7E01D470DEB001714CD /* VideoModel.m */; };
+		1886C7E41D4711CC001714CD /* VideoViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1886C7E31D4711CC001714CD /* VideoViewModel.m */; };
+		1886C7E71D4714CC001714CD /* VideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1886C7E61D4714CC001714CD /* VideoCell.m */; };
+		1886C7EA1D48EED0001714CD /* LOLTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1886C7E91D48EED0001714CD /* LOLTabBarController.m */; };
 		18AAD4F61D3CDE9800B33C74 /* Poetry.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 18AAD4F51D3CDE9800B33C74 /* Poetry.bundle */; };
 		18AAD4F91D3D0FFF00B33C74 /* KindModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AAD4F81D3D0FFF00B33C74 /* KindModel.m */; };
 		18AAD4FC1D3D176E00B33C74 /* KindViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AAD4FB1D3D176E00B33C74 /* KindViewModel.m */; };
@@ -21,7 +41,6 @@
 		18AAD5201D3E10EC00B33C74 /* GameInfoNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AAD51F1D3E10EC00B33C74 /* GameInfoNetManager.m */; };
 		18AAD5231D3E113700B33C74 /* GameInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AAD5221D3E113700B33C74 /* GameInfoModel.m */; };
 		18AAD5261D3E115200B33C74 /* GameInfoPicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AAD5251D3E115200B33C74 /* GameInfoPicModel.m */; };
-		18AAD5291D3E151D00B33C74 /* LOLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AAD5281D3E151D00B33C74 /* LOLViewController.m */; };
 		18AAD52C1D3E1C9A00B33C74 /* Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AAD52B1D3E1C9A00B33C74 /* Factory.m */; };
 		18AAD52F1D3E297C00B33C74 /* GameInfoListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AAD52E1D3E297C00B33C74 /* GameInfoListCell.m */; };
 		18AAD5321D3E29BB00B33C74 /* TRImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AAD5311D3E29BB00B33C74 /* TRImageView.m */; };
@@ -63,6 +82,47 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1886C7A71D40BBB4001714CD /* AlbumModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumModel.h; sourceTree = "<group>"; };
+		1886C7A81D40BBB4001714CD /* AlbumModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumModel.m; sourceTree = "<group>"; };
+		1886C7A91D40BBB4001714CD /* RankingListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RankingListModel.h; sourceTree = "<group>"; };
+		1886C7AA1D40BBB4001714CD /* RankingListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RankingListModel.m; sourceTree = "<group>"; };
+		1886C7AE1D40BBF5001714CD /* Multimedia.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Multimedia.h; sourceTree = "<group>"; };
+		1886C7AF1D40BC5B001714CD /* MultimediaNetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultimediaNetManager.h; sourceTree = "<group>"; };
+		1886C7B01D40BC5B001714CD /* MultimediaNetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultimediaNetManager.m; sourceTree = "<group>"; };
+		1886C7B51D40CE4B001714CD /* MultimediaTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultimediaTabBarController.h; sourceTree = "<group>"; };
+		1886C7B61D40CE4B001714CD /* MultimediaTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultimediaTabBarController.m; sourceTree = "<group>"; };
+		1886C7B81D40CF2B001714CD /* MusicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicViewController.h; sourceTree = "<group>"; };
+		1886C7B91D40CF2B001714CD /* MusicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicViewController.m; sourceTree = "<group>"; };
+		1886C7BB1D40CF58001714CD /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
+		1886C7BC1D40CF58001714CD /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
+		1886C7BE1D40CF8A001714CD /* CrosstalkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrosstalkViewController.h; sourceTree = "<group>"; };
+		1886C7BF1D40CF8A001714CD /* CrosstalkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrosstalkViewController.m; sourceTree = "<group>"; };
+		1886C7C11D4203A2001714CD /* MusicCategoryViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicCategoryViewModel.h; sourceTree = "<group>"; };
+		1886C7C21D4203A2001714CD /* MusicCategoryViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicCategoryViewModel.m; sourceTree = "<group>"; };
+		1886C7C71D42042C001714CD /* MusicListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicListViewController.h; sourceTree = "<group>"; };
+		1886C7C81D42042C001714CD /* MusicListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicListViewController.m; sourceTree = "<group>"; };
+		1886C7CA1D420488001714CD /* MusicCategoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicCategoryCell.h; sourceTree = "<group>"; };
+		1886C7CB1D420488001714CD /* MusicCategoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicCategoryCell.m; sourceTree = "<group>"; };
+		1886C7CD1D4204FC001714CD /* MusicDetailViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicDetailViewModel.h; sourceTree = "<group>"; };
+		1886C7CE1D4204FC001714CD /* MusicDetailViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicDetailViewModel.m; sourceTree = "<group>"; };
+		1886C7D01D42052B001714CD /* MusicDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicDetailCell.h; sourceTree = "<group>"; };
+		1886C7D11D42052B001714CD /* MusicDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicDetailCell.m; sourceTree = "<group>"; };
+		1886C7D31D42147B001714CD /* MultimediaPlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultimediaPlayView.h; sourceTree = "<group>"; };
+		1886C7D41D42147B001714CD /* MultimediaPlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultimediaPlayView.m; sourceTree = "<group>"; };
+		1886C7D61D46EC4F001714CD /* CrosstalkModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrosstalkModel.h; sourceTree = "<group>"; };
+		1886C7D71D46EC4F001714CD /* CrosstalkModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrosstalkModel.m; sourceTree = "<group>"; };
+		1886C7D91D46F49A001714CD /* CrosstalkViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrosstalkViewModel.h; sourceTree = "<group>"; };
+		1886C7DA1D46F49A001714CD /* CrosstalkViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrosstalkViewModel.m; sourceTree = "<group>"; };
+		1886C7DC1D46F9EA001714CD /* CrosstalkCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrosstalkCell.h; sourceTree = "<group>"; };
+		1886C7DD1D46F9EA001714CD /* CrosstalkCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrosstalkCell.m; sourceTree = "<group>"; };
+		1886C7DF1D470DEB001714CD /* VideoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoModel.h; sourceTree = "<group>"; };
+		1886C7E01D470DEB001714CD /* VideoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoModel.m; sourceTree = "<group>"; };
+		1886C7E21D4711CC001714CD /* VideoViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoViewModel.h; sourceTree = "<group>"; };
+		1886C7E31D4711CC001714CD /* VideoViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoViewModel.m; sourceTree = "<group>"; };
+		1886C7E51D4714CC001714CD /* VideoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoCell.h; sourceTree = "<group>"; };
+		1886C7E61D4714CC001714CD /* VideoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoCell.m; sourceTree = "<group>"; };
+		1886C7E81D48EED0001714CD /* LOLTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOLTabBarController.h; sourceTree = "<group>"; };
+		1886C7E91D48EED0001714CD /* LOLTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOLTabBarController.m; sourceTree = "<group>"; };
 		18AAD4F51D3CDE9800B33C74 /* Poetry.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Poetry.bundle; sourceTree = "<group>"; };
 		18AAD4F71D3D0FFF00B33C74 /* KindModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KindModel.h; sourceTree = "<group>"; };
 		18AAD4F81D3D0FFF00B33C74 /* KindModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KindModel.m; sourceTree = "<group>"; };
@@ -90,8 +150,6 @@
 		18AAD5221D3E113700B33C74 /* GameInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameInfoModel.m; sourceTree = "<group>"; };
 		18AAD5241D3E115200B33C74 /* GameInfoPicModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameInfoPicModel.h; sourceTree = "<group>"; };
 		18AAD5251D3E115200B33C74 /* GameInfoPicModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameInfoPicModel.m; sourceTree = "<group>"; };
-		18AAD5271D3E151D00B33C74 /* LOLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOLViewController.h; sourceTree = "<group>"; };
-		18AAD5281D3E151D00B33C74 /* LOLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOLViewController.m; sourceTree = "<group>"; };
 		18AAD52A1D3E1C9A00B33C74 /* Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Factory.h; sourceTree = "<group>"; };
 		18AAD52B1D3E1C9A00B33C74 /* Factory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Factory.m; sourceTree = "<group>"; };
 		18AAD52D1D3E297C00B33C74 /* GameInfoListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameInfoListCell.h; sourceTree = "<group>"; };
@@ -197,6 +255,14 @@
 		18AAD4EE1D3CCB9F00B33C74 /* 音频视频 */ = {
 			isa = PBXGroup;
 			children = (
+				1886C7C11D4203A2001714CD /* MusicCategoryViewModel.h */,
+				1886C7C21D4203A2001714CD /* MusicCategoryViewModel.m */,
+				1886C7CD1D4204FC001714CD /* MusicDetailViewModel.h */,
+				1886C7CE1D4204FC001714CD /* MusicDetailViewModel.m */,
+				1886C7D91D46F49A001714CD /* CrosstalkViewModel.h */,
+				1886C7DA1D46F49A001714CD /* CrosstalkViewModel.m */,
+				1886C7E21D4711CC001714CD /* VideoViewModel.h */,
+				1886C7E31D4711CC001714CD /* VideoViewModel.m */,
 			);
 			path = "音频视频";
 			sourceTree = "<group>";
@@ -237,6 +303,16 @@
 		18AAD4F21D3CCBE900B33C74 /* 音频视频 */ = {
 			isa = PBXGroup;
 			children = (
+				1886C7B51D40CE4B001714CD /* MultimediaTabBarController.h */,
+				1886C7B61D40CE4B001714CD /* MultimediaTabBarController.m */,
+				1886C7B81D40CF2B001714CD /* MusicViewController.h */,
+				1886C7B91D40CF2B001714CD /* MusicViewController.m */,
+				1886C7C71D42042C001714CD /* MusicListViewController.h */,
+				1886C7C81D42042C001714CD /* MusicListViewController.m */,
+				1886C7BB1D40CF58001714CD /* VideoViewController.h */,
+				1886C7BC1D40CF58001714CD /* VideoViewController.m */,
+				1886C7BE1D40CF8A001714CD /* CrosstalkViewController.h */,
+				1886C7BF1D40CF8A001714CD /* CrosstalkViewController.m */,
 			);
 			name = "音频视频";
 			sourceTree = "<group>";
@@ -244,8 +320,8 @@
 		18AAD4F31D3CCBF600B33C74 /* 英雄联盟 */ = {
 			isa = PBXGroup;
 			children = (
-				18AAD5271D3E151D00B33C74 /* LOLViewController.h */,
-				18AAD5281D3E151D00B33C74 /* LOLViewController.m */,
+				1886C7E81D48EED0001714CD /* LOLTabBarController.h */,
+				1886C7E91D48EED0001714CD /* LOLTabBarController.m */,
 			);
 			name = "英雄联盟";
 			path = "音频视频";
@@ -280,6 +356,15 @@
 		18D37A701D3CC8B700FC5E9A /* 音频视频 */ = {
 			isa = PBXGroup;
 			children = (
+				1886C7A71D40BBB4001714CD /* AlbumModel.h */,
+				1886C7A81D40BBB4001714CD /* AlbumModel.m */,
+				1886C7A91D40BBB4001714CD /* RankingListModel.h */,
+				1886C7AA1D40BBB4001714CD /* RankingListModel.m */,
+				1886C7AE1D40BBF5001714CD /* Multimedia.h */,
+				1886C7D61D46EC4F001714CD /* CrosstalkModel.h */,
+				1886C7D71D46EC4F001714CD /* CrosstalkModel.m */,
+				1886C7DF1D470DEB001714CD /* VideoModel.h */,
+				1886C7E01D470DEB001714CD /* VideoModel.m */,
 			);
 			path = "音频视频";
 			sourceTree = "<group>";
@@ -414,6 +499,8 @@
 				3886C0BD1BD74AFE0014E661 /* BaseNetManager.m */,
 				18AAD51E1D3E10EC00B33C74 /* GameInfoNetManager.h */,
 				18AAD51F1D3E10EC00B33C74 /* GameInfoNetManager.m */,
+				1886C7AF1D40BC5B001714CD /* MultimediaNetManager.h */,
+				1886C7B01D40BC5B001714CD /* MultimediaNetManager.m */,
 			);
 			path = NetManager;
 			sourceTree = "<group>";
@@ -458,6 +545,16 @@
 				18AAD52E1D3E297C00B33C74 /* GameInfoListCell.m */,
 				18AAD5331D3E2A3700B33C74 /* GameInfoImageCell.h */,
 				18AAD5341D3E2A3700B33C74 /* GameInfoImageCell.m */,
+				1886C7CA1D420488001714CD /* MusicCategoryCell.h */,
+				1886C7CB1D420488001714CD /* MusicCategoryCell.m */,
+				1886C7D01D42052B001714CD /* MusicDetailCell.h */,
+				1886C7D11D42052B001714CD /* MusicDetailCell.m */,
+				1886C7D31D42147B001714CD /* MultimediaPlayView.h */,
+				1886C7D41D42147B001714CD /* MultimediaPlayView.m */,
+				1886C7DC1D46F9EA001714CD /* CrosstalkCell.h */,
+				1886C7DD1D46F9EA001714CD /* CrosstalkCell.m */,
+				1886C7E51D4714CC001714CD /* VideoCell.h */,
+				1886C7E61D4714CC001714CD /* VideoCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -645,37 +742,56 @@
 				18AAD5261D3E115200B33C74 /* GameInfoPicModel.m in Sources */,
 				3886C0BE1BD74AFE0014E661 /* BaseNetManager.m in Sources */,
 				18D37F861D3F4F48005D046B /* PoetryDetailViewController.m in Sources */,
-				18AAD5291D3E151D00B33C74 /* LOLViewController.m in Sources */,
+				1886C7C91D42042C001714CD /* MusicListViewController.m in Sources */,
+				1886C7C31D4203A2001714CD /* MusicCategoryViewModel.m in Sources */,
+				1886C7B11D40BC5B001714CD /* MultimediaNetManager.m in Sources */,
+				1886C7AC1D40BBB4001714CD /* RankingListModel.m in Sources */,
 				18D37F7A1D3E752B005D046B /* KindIntroViewController.m in Sources */,
 				3804CE541BD758F10046C8C8 /* NSString+QRCode.m in Sources */,
 				18D37F891D3F7335005D046B /* SearchPoetryViewModel.m in Sources */,
+				1886C7D51D42147B001714CD /* MultimediaPlayView.m in Sources */,
 				18D37F831D3F3D0C005D046B /* PoetryViewModel.m in Sources */,
+				1886C7E41D4711CC001714CD /* VideoViewModel.m in Sources */,
 				3885C8FA1BE8E96A009441EA /* PSCollectionViewCell.m in Sources */,
 				18D37F801D3F35D9005D046B /* PoetryModel.m in Sources */,
 				18AAD4F91D3D0FFF00B33C74 /* KindModel.m in Sources */,
+				1886C7CF1D4204FC001714CD /* MusicDetailViewModel.m in Sources */,
 				18AAD4FF1D3DCBAA00B33C74 /* PoetryViewController.m in Sources */,
 				3804CE531BD758F10046C8C8 /* NSString+PJR.m in Sources */,
 				3885C8F91BE8E96A009441EA /* PSCollectionView.m in Sources */,
 				3886C09B1BD748830014E661 /* AppDelegate.m in Sources */,
+				1886C7DE1D46F9EA001714CD /* CrosstalkCell.m in Sources */,
 				3885C8981BE8E88D009441EA /* iCarousel.m in Sources */,
 				18AAD50B1D3E067E00B33C74 /* LeftViewController.m in Sources */,
+				1886C7DB1D46F49A001714CD /* CrosstalkViewModel.m in Sources */,
+				1886C7AB1D40BBB4001714CD /* AlbumModel.m in Sources */,
+				1886C7E71D4714CC001714CD /* VideoCell.m in Sources */,
 				18AAD5171D3E101000B33C74 /* GameInfoPicViewController.m in Sources */,
 				3804CE511BD758F10046C8C8 /* AppDelegate+Category.m in Sources */,
+				1886C7EA1D48EED0001714CD /* LOLTabBarController.m in Sources */,
 				18AAD5321D3E29BB00B33C74 /* TRImageView.m in Sources */,
 				18AAD5111D3E0F7A00B33C74 /* GameInfoListViewController.m in Sources */,
+				1886C7CC1D420488001714CD /* MusicCategoryCell.m in Sources */,
+				1886C7D21D42052B001714CD /* MusicDetailCell.m in Sources */,
 				18AAD5351D3E2A3700B33C74 /* GameInfoImageCell.m in Sources */,
 				18AAD5201D3E10EC00B33C74 /* GameInfoNetManager.m in Sources */,
 				18AAD51D1D3E10A200B33C74 /* GameInfoPicViewModel.m in Sources */,
+				1886C7C01D40CF8A001714CD /* CrosstalkViewController.m in Sources */,
 				3886C0BB1BD74AE90014E661 /* BaseViewModel.m in Sources */,
+				1886C7BA1D40CF2B001714CD /* MusicViewController.m in Sources */,
 				18AAD52C1D3E1C9A00B33C74 /* Factory.m in Sources */,
+				1886C7E11D470DEB001714CD /* VideoModel.m in Sources */,
 				18AAD5141D3E0FE400B33C74 /* GameInfoHtmlViewController.m in Sources */,
 				3885C8FB1BE8E96A009441EA /* README.md in Sources */,
 				18AAD5231D3E113700B33C74 /* GameInfoModel.m in Sources */,
+				1886C7D81D46EC4F001714CD /* CrosstalkModel.m in Sources */,
 				18D37F7D1D3F357D005D046B /* PoetryListViewController.m in Sources */,
 				18AAD4FC1D3D176E00B33C74 /* KindViewModel.m in Sources */,
 				3886C0C11BD74B090014E661 /* BaseModel.m in Sources */,
+				1886C7BD1D40CF58001714CD /* VideoViewController.m in Sources */,
 				18AAD52F1D3E297C00B33C74 /* GameInfoListCell.m in Sources */,
 				3886C0981BD748830014E661 /* main.m in Sources */,
+				1886C7B71D40CE4B001714CD /* MultimediaTabBarController.m in Sources */,
 				3804CE521BD758F10046C8C8 /* NSObject+Common.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -798,7 +914,7 @@
 					"$(PROJECT_DIR)/BaseProject/Vendor/umeng_ios_social_sdk_4.2-2.5_arm64_custom/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
 					"$(PROJECT_DIR)/BaseProject/Vendor/umeng_ios_social_sdk_4.2-2.5_arm64_custom/UMSocial_Sdk_Extra_Frameworks/Wechat",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "-88com.tarena.BaseProject";
+				PRODUCT_BUNDLE_IDENTIFIER = "-66com.tarena.BaseProject";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -826,7 +942,7 @@
 					"$(PROJECT_DIR)/BaseProject/Vendor/umeng_ios_social_sdk_4.2-2.5_arm64_custom/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
 					"$(PROJECT_DIR)/BaseProject/Vendor/umeng_ios_social_sdk_4.2-2.5_arm64_custom/UMSocial_Sdk_Extra_Frameworks/Wechat",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "-88com.tarena.BaseProject";
+				PRODUCT_BUNDLE_IDENTIFIER = "-66com.tarena.BaseProject";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};

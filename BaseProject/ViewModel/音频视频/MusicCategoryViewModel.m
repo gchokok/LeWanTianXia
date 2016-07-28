@@ -1,0 +1,65 @@
+//
+//  MusicCategoryViewModel.m
+//  BaseProject
+//
+//  Created by apple on 16/7/22.
+//  Copyright © 2016年 Tarena. All rights reserved.
+//
+
+#import "MusicCategoryViewModel.h"
+#import "MultimediaNetManager.h"
+
+@implementation MusicCategoryViewModel
+- (void)refreshDataCompletionHandle:(CompletionHandle)completionHandle{
+    _pageId = 1;
+    [self getDataFromNetCompleteHandle:completionHandle];
+}
+- (void)getMoreDataCompletionHandle:(CompletionHandle)completionHandle{
+    //如果当前页数已经是最大页数，那么没有必要再发送获取更多请求了，这样会浪费用户流量
+    if (self.isHasMore) {
+        _pageId += 1;
+        [self getDataFromNetCompleteHandle:completionHandle];
+    }else{
+        NSError *err=[NSError errorWithDomain:@"" code:999 userInfo:@{NSLocalizedDescriptionKey:@"没有更多数据了"}];
+        completionHandle(err);
+    }
+}
+- (void)getDataFromNetCompleteHandle:(CompletionHandle)completionHandle{
+    self.dataTask=[MultimediaNetManager getRankListWithPageId:_pageId completionHandle:^(RankingListModel* model, NSError *error) {
+        if (!error) {
+            if (_pageId == 1) {
+                [self.dataArr removeAllObjects];
+            }
+            [self.dataArr addObjectsFromArray:model.list];
+            _maxPageId = model.maxPageId;
+        }
+        completionHandle(error);
+    }];
+}
+- (RankListListModel *)modelForRow:(NSInteger)row{
+    return self.dataArr[row];
+}
+- (NSInteger)rowNumber{
+    return self.dataArr.count;
+}
+- (NSInteger)albumIdForRow:(NSInteger)row{
+    return [self modelForRow:row].albumId;
+}
+- (NSURL *)iconURLForRow:(NSInteger)row{
+    return [NSURL URLWithString:[self modelForRow:row].albumCoverUrl290];
+}
+- (NSString *)titleForRow:(NSInteger)row{
+    return [self modelForRow:row].title;
+}
+- (NSString *)descForRow:(NSInteger)row{
+    return [self modelForRow:row].intro;
+}
+- (NSString *)numberForRow:(NSInteger)row{
+    return [NSString stringWithFormat:@"%ld集", [self modelForRow:row].tracks];
+}
+
+- (BOOL)isHasMore{
+    return _maxPageId > _pageId;
+}
+
+@end

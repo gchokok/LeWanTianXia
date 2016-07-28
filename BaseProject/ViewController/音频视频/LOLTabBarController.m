@@ -1,26 +1,27 @@
 //
-//  LOLViewController.m
+//  LOLTabBarController.m
 //  BaseProject
 //
-//  Created by apple on 16/7/19.
+//  Created by apple on 16/7/27.
 //  Copyright © 2016年 Tarena. All rights reserved.
 //
 
-#import "LOLViewController.h"
+#import "LOLTabBarController.h"
 
-@interface LOLViewController ()
+@interface LOLTabBarController ()
 
 @end
 
-@implementation LOLViewController
-+ (LOLViewController *)standardInstance{
-    static LOLViewController *vc= nil;
+@implementation LOLTabBarController
++ (LOLTabBarController *)standardInstance{
+    static LOLTabBarController *vc = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        vc = [LOLViewController new];
+        vc = [LOLTabBarController new];
     });
     return vc;
 }
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.

@@ -15,7 +15,7 @@
 
 @implementation GameInfoViewController
 
-+ (UINavigationController *)standardTuWanNavi{
++ (UINavigationController *)standardInstance{
     static UINavigationController *navi = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
@@ -30,21 +30,21 @@
     return navi;
 }
 /** 提供每个VC对应的values值数组 */
-+ (NSArray *)vcValues{
++ (NSMutableArray *)vcValues{
     NSMutableArray *arr = [NSMutableArray new];
     for (int i = 0; i <[self itemNames].count; i++) {
         //数值上，vc的infoType的枚举值 恰好和i值相同
         [arr addObject:@(i)];
     }
-    return [arr copy];
+    return arr;
 }
 /** 提供每个VC对应的key值数组 */
-+ (NSArray *)vcKeys{
++ (NSMutableArray *)vcKeys{
     NSMutableArray *arr = [NSMutableArray new];
     for (id obj in [self itemNames]) {
         [arr addObject:@"infoType"];
     }
-    return [arr copy];
+    return arr;
 }
 
 /** 提供题目数组 */

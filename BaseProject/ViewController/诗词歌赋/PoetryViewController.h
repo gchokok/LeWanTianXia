@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface PoetryViewController : UIViewController
-+ (UINavigationController *)defaultNavi;
++ (UINavigationController *)standardInstance;
 @end

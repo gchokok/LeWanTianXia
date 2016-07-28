@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 #import <WMPageController.h>
 @interface GameInfoViewController : WMPageController
-+ (UINavigationController *)standardTuWanNavi;
++ (UINavigationController *)standardInstance;
 @end

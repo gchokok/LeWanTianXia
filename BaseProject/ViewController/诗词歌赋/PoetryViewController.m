@@ -72,7 +72,7 @@
 
 @implementation PoetryViewController
 
-+(UINavigationController *)defaultNavi{
++(UINavigationController *)standardInstance{
     static UINavigationController *navi = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
