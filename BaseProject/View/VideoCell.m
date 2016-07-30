@@ -102,7 +102,7 @@
         [_timeLB mas_makeConstraints:^(MASConstraintMaker *make) {
             make.right.mas_equalTo(-10);
             make.centerY.mas_equalTo(self.playLB);
-            make.width.mas_equalTo(120);
+            make.width.mas_equalTo(150);
         }];
         _timeLB.textAlignment = 2;
         _timeLB.textColor = [UIColor lightGrayColor];

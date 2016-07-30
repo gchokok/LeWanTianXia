@@ -30,13 +30,15 @@
 
 }
 
+kRemoveCellSeparator
+
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     return self.detailVM.rowNumber;
 }
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     MusicDetailCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell"];
-    [cell.coverIV.imageView setImageWithURL:[self.detailVM coverURLForRow:indexPath.row] placeholderImage:[UIImage imageNamed:@"cell_bg_noData_1"]];
+    [cell.coverIV.imageView setImageWithURL:[self.detailVM coverURLForRow:indexPath.row] placeholderImage:[UIImage imageNamed:@"xxxxx"]];
     cell.titleLb.text=[self.detailVM titleForRow:indexPath.row];
     cell.timeLb.text = [self.detailVM timeForRow:indexPath.row];
     cell.sourceLb.text=[self.detailVM sourceForRow:indexPath.row];

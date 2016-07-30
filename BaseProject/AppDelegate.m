@@ -60,7 +60,7 @@
 
 - (RESideMenu *)sideMenu{
     if (!_sideMenu) {
-        _sideMenu=[[RESideMenu alloc]initWithContentViewController:[GameInfoViewController standardInstance] leftMenuViewController:[LeftViewController new] rightMenuViewController:nil];
+        _sideMenu=[[RESideMenu alloc]initWithContentViewController:[GameInfoViewController sharedInstance] leftMenuViewController:[LeftViewController new] rightMenuViewController:nil];
         //为sideMenu设置背景图
         _sideMenu.backgroundImage =[UIImage imageNamed:@"10979715_0800"];
         //可以让出现菜单时不显示状态栏

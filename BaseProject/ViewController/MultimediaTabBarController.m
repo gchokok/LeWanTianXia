@@ -17,7 +17,7 @@
 
 @implementation MultimediaTabBarController
 
-+ (MultimediaTabBarController *)standardInstance{
++ (MultimediaTabBarController *)sharedInstance{
     static MultimediaTabBarController *vc = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{

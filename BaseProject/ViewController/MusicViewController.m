@@ -90,13 +90,15 @@
 }
 
 #pragma mark - UITableView
+kRemoveCellSeparator
+
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     return self.categoryVM.rowNumber;
 }
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     MusicCategoryCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell"];
     cell.titleLb.text = [self.categoryVM titleForRow:indexPath.row];
-    [cell.iconIV.imageView setImageWithURL:[self.categoryVM iconURLForRow:indexPath.row] placeholderImage:[UIImage imageNamed:@"cell_bg_noData_1"]];
+    [cell.iconIV.imageView setImageWithURL:[self.categoryVM iconURLForRow:indexPath.row] placeholderImage:[UIImage imageNamed:@"xxxxx"]];
     cell.orderLb.text = @(indexPath.row + 1).stringValue;
     cell.descLb.text = [self.categoryVM descForRow:indexPath.row];
     cell.numberLb.text = [self.categoryVM numberForRow:indexPath.row];

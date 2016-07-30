@@ -1,17 +1,17 @@
 //
-//  Multimedia.h
+//  MultimediaModel.h
 //  BaseProject
 //
-//  Created by apple on 16/7/21.
+//  Created by apple on 16/7/29.
 //  Copyright © 2016年 Tarena. All rights reserved.
 //
 
-#ifndef Multimedia_h
-#define Multimedia_h
+#ifndef MultimediaModel_h
+#define MultimediaModel_h
 
 #import "AlbumModel.h"
 #import "RankingListModel.h"
 #import "CrosstalkModel.h"
 #import "VideoModel.h"
 
-#endif /* Multimedia_h */
+#endif /* MultimediaModel_h */

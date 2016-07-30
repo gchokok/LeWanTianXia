@@ -26,7 +26,6 @@
 		1886C7E11D470DEB001714CD /* VideoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1886C7E01D470DEB001714CD /* VideoModel.m */; };
 		1886C7E41D4711CC001714CD /* VideoViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1886C7E31D4711CC001714CD /* VideoViewModel.m */; };
 		1886C7E71D4714CC001714CD /* VideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1886C7E61D4714CC001714CD /* VideoCell.m */; };
-		1886C7EA1D48EED0001714CD /* LOLTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1886C7E91D48EED0001714CD /* LOLTabBarController.m */; };
 		18AAD4F61D3CDE9800B33C74 /* Poetry.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 18AAD4F51D3CDE9800B33C74 /* Poetry.bundle */; };
 		18AAD4F91D3D0FFF00B33C74 /* KindModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AAD4F81D3D0FFF00B33C74 /* KindModel.m */; };
 		18AAD4FC1D3D176E00B33C74 /* KindViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AAD4FB1D3D176E00B33C74 /* KindViewModel.m */; };
@@ -45,6 +44,27 @@
 		18AAD52F1D3E297C00B33C74 /* GameInfoListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AAD52E1D3E297C00B33C74 /* GameInfoListCell.m */; };
 		18AAD5321D3E29BB00B33C74 /* TRImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AAD5311D3E29BB00B33C74 /* TRImageView.m */; };
 		18AAD5351D3E2A3700B33C74 /* GameInfoImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AAD5341D3E2A3700B33C74 /* GameInfoImageCell.m */; };
+		18D2AB9A1D4AF15300019F3E /* ToolMenuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D2AB991D4AF15300019F3E /* ToolMenuModel.m */; };
+		18D2AB9D1D4AF1E800019F3E /* BestGroupModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D2AB9C1D4AF1E800019F3E /* BestGroupModel.m */; };
+		18D2ABA01D4AF24600019F3E /* ZBCategoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D2AB9F1D4AF24600019F3E /* ZBCategoryModel.m */; };
+		18D2ABA31D4AF2BB00019F3E /* ZBItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D2ABA21D4AF2BB00019F3E /* ZBItemModel.m */; };
+		18D2ABA61D4AF2FC00019F3E /* SumAbilityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D2ABA51D4AF2FC00019F3E /* SumAbilityModel.m */; };
+		18D2ABA91D4AF39000019F3E /* LOLNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D2ABA81D4AF39000019F3E /* LOLNetManager.m */; };
+		18D2ABB71D4AFECA00019F3E /* BestGroupViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D2ABAE1D4AFECA00019F3E /* BestGroupViewModel.m */; };
+		18D2ABB81D4AFECA00019F3E /* SumAbilityViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D2ABB01D4AFECA00019F3E /* SumAbilityViewModel.m */; };
+		18D2ABB91D4AFECA00019F3E /* ToolMenuViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D2ABB21D4AFECA00019F3E /* ToolMenuViewModel.m */; };
+		18D2ABBA1D4AFECA00019F3E /* ZBCategoryViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D2ABB41D4AFECA00019F3E /* ZBCategoryViewModel.m */; };
+		18D2ABBB1D4AFECA00019F3E /* ZBItemViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D2ABB61D4AFECA00019F3E /* ZBItemViewModel.m */; };
+		18D2ABBE1D4AFF5B00019F3E /* LOLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D2ABBD1D4AFF5B00019F3E /* LOLViewController.m */; };
+		18D2ABCB1D4B037D00019F3E /* BestGroupDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D2ABC01D4B037D00019F3E /* BestGroupDetailViewController.m */; };
+		18D2ABCC1D4B037D00019F3E /* BestGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D2ABC21D4B037D00019F3E /* BestGroupViewController.m */; };
+		18D2ABCD1D4B037D00019F3E /* SumAbilityDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D2ABC41D4B037D00019F3E /* SumAbilityDetailViewController.m */; };
+		18D2ABCE1D4B037D00019F3E /* SumAbilityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D2ABC61D4B037D00019F3E /* SumAbilityViewController.m */; };
+		18D2ABCF1D4B037D00019F3E /* ZBCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D2ABC81D4B037D00019F3E /* ZBCategoryViewController.m */; };
+		18D2ABD01D4B037D00019F3E /* ZBItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D2ABCA1D4B037D00019F3E /* ZBItemViewController.m */; };
+		18D2ABD71D4B04A600019F3E /* BestGroupCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D2ABD21D4B04A600019F3E /* BestGroupCell.m */; };
+		18D2ABD81D4B04A600019F3E /* BestGroupDetailHeroCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D2ABD41D4B04A600019F3E /* BestGroupDetailHeroCell.m */; };
+		18D2ABD91D4B04A600019F3E /* BestGroupDetailIntroCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D2ABD61D4B04A600019F3E /* BestGroupDetailIntroCell.m */; };
 		18D37F7A1D3E752B005D046B /* KindIntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D37F791D3E752B005D046B /* KindIntroViewController.m */; };
 		18D37F7D1D3F357D005D046B /* PoetryListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D37F7C1D3F357D005D046B /* PoetryListViewController.m */; };
 		18D37F801D3F35D9005D046B /* PoetryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D37F7F1D3F35D9005D046B /* PoetryModel.m */; };
@@ -86,7 +106,6 @@
 		1886C7A81D40BBB4001714CD /* AlbumModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumModel.m; sourceTree = "<group>"; };
 		1886C7A91D40BBB4001714CD /* RankingListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RankingListModel.h; sourceTree = "<group>"; };
 		1886C7AA1D40BBB4001714CD /* RankingListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RankingListModel.m; sourceTree = "<group>"; };
-		1886C7AE1D40BBF5001714CD /* Multimedia.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Multimedia.h; sourceTree = "<group>"; };
 		1886C7AF1D40BC5B001714CD /* MultimediaNetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultimediaNetManager.h; sourceTree = "<group>"; };
 		1886C7B01D40BC5B001714CD /* MultimediaNetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultimediaNetManager.m; sourceTree = "<group>"; };
 		1886C7B51D40CE4B001714CD /* MultimediaTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultimediaTabBarController.h; sourceTree = "<group>"; };
@@ -121,8 +140,6 @@
 		1886C7E31D4711CC001714CD /* VideoViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoViewModel.m; sourceTree = "<group>"; };
 		1886C7E51D4714CC001714CD /* VideoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoCell.h; sourceTree = "<group>"; };
 		1886C7E61D4714CC001714CD /* VideoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoCell.m; sourceTree = "<group>"; };
-		1886C7E81D48EED0001714CD /* LOLTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOLTabBarController.h; sourceTree = "<group>"; };
-		1886C7E91D48EED0001714CD /* LOLTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOLTabBarController.m; sourceTree = "<group>"; };
 		18AAD4F51D3CDE9800B33C74 /* Poetry.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Poetry.bundle; sourceTree = "<group>"; };
 		18AAD4F71D3D0FFF00B33C74 /* KindModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KindModel.h; sourceTree = "<group>"; };
 		18AAD4F81D3D0FFF00B33C74 /* KindModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KindModel.m; sourceTree = "<group>"; };
@@ -158,6 +175,51 @@
 		18AAD5311D3E29BB00B33C74 /* TRImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRImageView.m; sourceTree = "<group>"; };
 		18AAD5331D3E2A3700B33C74 /* GameInfoImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameInfoImageCell.h; sourceTree = "<group>"; };
 		18AAD5341D3E2A3700B33C74 /* GameInfoImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameInfoImageCell.m; sourceTree = "<group>"; };
+		18D2AB981D4AF15300019F3E /* ToolMenuModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolMenuModel.h; sourceTree = "<group>"; };
+		18D2AB991D4AF15300019F3E /* ToolMenuModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolMenuModel.m; sourceTree = "<group>"; };
+		18D2AB9B1D4AF1E800019F3E /* BestGroupModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BestGroupModel.h; sourceTree = "<group>"; };
+		18D2AB9C1D4AF1E800019F3E /* BestGroupModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BestGroupModel.m; sourceTree = "<group>"; };
+		18D2AB9E1D4AF24600019F3E /* ZBCategoryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBCategoryModel.h; sourceTree = "<group>"; };
+		18D2AB9F1D4AF24600019F3E /* ZBCategoryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBCategoryModel.m; sourceTree = "<group>"; };
+		18D2ABA11D4AF2BB00019F3E /* ZBItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBItemModel.h; sourceTree = "<group>"; };
+		18D2ABA21D4AF2BB00019F3E /* ZBItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBItemModel.m; sourceTree = "<group>"; };
+		18D2ABA41D4AF2FC00019F3E /* SumAbilityModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SumAbilityModel.h; sourceTree = "<group>"; };
+		18D2ABA51D4AF2FC00019F3E /* SumAbilityModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SumAbilityModel.m; sourceTree = "<group>"; };
+		18D2ABA71D4AF39000019F3E /* LOLNetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOLNetManager.h; sourceTree = "<group>"; };
+		18D2ABA81D4AF39000019F3E /* LOLNetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOLNetManager.m; sourceTree = "<group>"; };
+		18D2ABAA1D4AF97A00019F3E /* LOLRequestPath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LOLRequestPath.h; sourceTree = "<group>"; };
+		18D2ABAB1D4AFA4800019F3E /* LOLModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LOLModel.h; sourceTree = "<group>"; };
+		18D2ABAC1D4AFD1800019F3E /* MultimediaModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultimediaModel.h; sourceTree = "<group>"; };
+		18D2ABAD1D4AFECA00019F3E /* BestGroupViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BestGroupViewModel.h; sourceTree = "<group>"; };
+		18D2ABAE1D4AFECA00019F3E /* BestGroupViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BestGroupViewModel.m; sourceTree = "<group>"; };
+		18D2ABAF1D4AFECA00019F3E /* SumAbilityViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SumAbilityViewModel.h; sourceTree = "<group>"; };
+		18D2ABB01D4AFECA00019F3E /* SumAbilityViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SumAbilityViewModel.m; sourceTree = "<group>"; };
+		18D2ABB11D4AFECA00019F3E /* ToolMenuViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolMenuViewModel.h; sourceTree = "<group>"; };
+		18D2ABB21D4AFECA00019F3E /* ToolMenuViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolMenuViewModel.m; sourceTree = "<group>"; };
+		18D2ABB31D4AFECA00019F3E /* ZBCategoryViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBCategoryViewModel.h; sourceTree = "<group>"; };
+		18D2ABB41D4AFECA00019F3E /* ZBCategoryViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBCategoryViewModel.m; sourceTree = "<group>"; };
+		18D2ABB51D4AFECA00019F3E /* ZBItemViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBItemViewModel.h; sourceTree = "<group>"; };
+		18D2ABB61D4AFECA00019F3E /* ZBItemViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBItemViewModel.m; sourceTree = "<group>"; };
+		18D2ABBC1D4AFF5B00019F3E /* LOLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOLViewController.h; sourceTree = "<group>"; };
+		18D2ABBD1D4AFF5B00019F3E /* LOLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOLViewController.m; sourceTree = "<group>"; };
+		18D2ABBF1D4B037D00019F3E /* BestGroupDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BestGroupDetailViewController.h; sourceTree = "<group>"; };
+		18D2ABC01D4B037D00019F3E /* BestGroupDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BestGroupDetailViewController.m; sourceTree = "<group>"; };
+		18D2ABC11D4B037D00019F3E /* BestGroupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BestGroupViewController.h; sourceTree = "<group>"; };
+		18D2ABC21D4B037D00019F3E /* BestGroupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BestGroupViewController.m; sourceTree = "<group>"; };
+		18D2ABC31D4B037D00019F3E /* SumAbilityDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SumAbilityDetailViewController.h; sourceTree = "<group>"; };
+		18D2ABC41D4B037D00019F3E /* SumAbilityDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SumAbilityDetailViewController.m; sourceTree = "<group>"; };
+		18D2ABC51D4B037D00019F3E /* SumAbilityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SumAbilityViewController.h; sourceTree = "<group>"; };
+		18D2ABC61D4B037D00019F3E /* SumAbilityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SumAbilityViewController.m; sourceTree = "<group>"; };
+		18D2ABC71D4B037D00019F3E /* ZBCategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBCategoryViewController.h; sourceTree = "<group>"; };
+		18D2ABC81D4B037D00019F3E /* ZBCategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBCategoryViewController.m; sourceTree = "<group>"; };
+		18D2ABC91D4B037D00019F3E /* ZBItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBItemViewController.h; sourceTree = "<group>"; };
+		18D2ABCA1D4B037D00019F3E /* ZBItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBItemViewController.m; sourceTree = "<group>"; };
+		18D2ABD11D4B04A600019F3E /* BestGroupCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BestGroupCell.h; sourceTree = "<group>"; };
+		18D2ABD21D4B04A600019F3E /* BestGroupCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BestGroupCell.m; sourceTree = "<group>"; };
+		18D2ABD31D4B04A600019F3E /* BestGroupDetailHeroCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BestGroupDetailHeroCell.h; sourceTree = "<group>"; };
+		18D2ABD41D4B04A600019F3E /* BestGroupDetailHeroCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BestGroupDetailHeroCell.m; sourceTree = "<group>"; };
+		18D2ABD51D4B04A600019F3E /* BestGroupDetailIntroCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BestGroupDetailIntroCell.h; sourceTree = "<group>"; };
+		18D2ABD61D4B04A600019F3E /* BestGroupDetailIntroCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BestGroupDetailIntroCell.m; sourceTree = "<group>"; };
 		18D37F781D3E752B005D046B /* KindIntroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KindIntroViewController.h; sourceTree = "<group>"; };
 		18D37F791D3E752B005D046B /* KindIntroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KindIntroViewController.m; sourceTree = "<group>"; };
 		18D37F7B1D3F357D005D046B /* PoetryListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PoetryListViewController.h; sourceTree = "<group>"; };
@@ -270,6 +332,16 @@
 		18AAD4EF1D3CCBAF00B33C74 /* 英雄联盟 */ = {
 			isa = PBXGroup;
 			children = (
+				18D2ABB11D4AFECA00019F3E /* ToolMenuViewModel.h */,
+				18D2ABB21D4AFECA00019F3E /* ToolMenuViewModel.m */,
+				18D2ABAD1D4AFECA00019F3E /* BestGroupViewModel.h */,
+				18D2ABAE1D4AFECA00019F3E /* BestGroupViewModel.m */,
+				18D2ABAF1D4AFECA00019F3E /* SumAbilityViewModel.h */,
+				18D2ABB01D4AFECA00019F3E /* SumAbilityViewModel.m */,
+				18D2ABB31D4AFECA00019F3E /* ZBCategoryViewModel.h */,
+				18D2ABB41D4AFECA00019F3E /* ZBCategoryViewModel.m */,
+				18D2ABB51D4AFECA00019F3E /* ZBItemViewModel.h */,
+				18D2ABB61D4AFECA00019F3E /* ZBItemViewModel.m */,
 			);
 			path = "英雄联盟";
 			sourceTree = "<group>";
@@ -320,8 +392,20 @@
 		18AAD4F31D3CCBF600B33C74 /* 英雄联盟 */ = {
 			isa = PBXGroup;
 			children = (
-				1886C7E81D48EED0001714CD /* LOLTabBarController.h */,
-				1886C7E91D48EED0001714CD /* LOLTabBarController.m */,
+				18D2ABBC1D4AFF5B00019F3E /* LOLViewController.h */,
+				18D2ABBD1D4AFF5B00019F3E /* LOLViewController.m */,
+				18D2ABC11D4B037D00019F3E /* BestGroupViewController.h */,
+				18D2ABC21D4B037D00019F3E /* BestGroupViewController.m */,
+				18D2ABBF1D4B037D00019F3E /* BestGroupDetailViewController.h */,
+				18D2ABC01D4B037D00019F3E /* BestGroupDetailViewController.m */,
+				18D2ABC51D4B037D00019F3E /* SumAbilityViewController.h */,
+				18D2ABC61D4B037D00019F3E /* SumAbilityViewController.m */,
+				18D2ABC31D4B037D00019F3E /* SumAbilityDetailViewController.h */,
+				18D2ABC41D4B037D00019F3E /* SumAbilityDetailViewController.m */,
+				18D2ABC71D4B037D00019F3E /* ZBCategoryViewController.h */,
+				18D2ABC81D4B037D00019F3E /* ZBCategoryViewController.m */,
+				18D2ABC91D4B037D00019F3E /* ZBItemViewController.h */,
+				18D2ABCA1D4B037D00019F3E /* ZBItemViewController.m */,
 			);
 			name = "英雄联盟";
 			path = "音频视频";
@@ -360,11 +444,11 @@
 				1886C7A81D40BBB4001714CD /* AlbumModel.m */,
 				1886C7A91D40BBB4001714CD /* RankingListModel.h */,
 				1886C7AA1D40BBB4001714CD /* RankingListModel.m */,
-				1886C7AE1D40BBF5001714CD /* Multimedia.h */,
 				1886C7D61D46EC4F001714CD /* CrosstalkModel.h */,
 				1886C7D71D46EC4F001714CD /* CrosstalkModel.m */,
 				1886C7DF1D470DEB001714CD /* VideoModel.h */,
 				1886C7E01D470DEB001714CD /* VideoModel.m */,
+				18D2ABAC1D4AFD1800019F3E /* MultimediaModel.h */,
 			);
 			path = "音频视频";
 			sourceTree = "<group>";
@@ -372,6 +456,17 @@
 		18D37A711D3CC8B700FC5E9A /* 英雄联盟 */ = {
 			isa = PBXGroup;
 			children = (
+				18D2AB981D4AF15300019F3E /* ToolMenuModel.h */,
+				18D2AB991D4AF15300019F3E /* ToolMenuModel.m */,
+				18D2AB9B1D4AF1E800019F3E /* BestGroupModel.h */,
+				18D2AB9C1D4AF1E800019F3E /* BestGroupModel.m */,
+				18D2AB9E1D4AF24600019F3E /* ZBCategoryModel.h */,
+				18D2AB9F1D4AF24600019F3E /* ZBCategoryModel.m */,
+				18D2ABA11D4AF2BB00019F3E /* ZBItemModel.h */,
+				18D2ABA21D4AF2BB00019F3E /* ZBItemModel.m */,
+				18D2ABA41D4AF2FC00019F3E /* SumAbilityModel.h */,
+				18D2ABA51D4AF2FC00019F3E /* SumAbilityModel.m */,
+				18D2ABAB1D4AFA4800019F3E /* LOLModel.h */,
 			);
 			path = "英雄联盟";
 			sourceTree = "<group>";
@@ -501,6 +596,9 @@
 				18AAD51F1D3E10EC00B33C74 /* GameInfoNetManager.m */,
 				1886C7AF1D40BC5B001714CD /* MultimediaNetManager.h */,
 				1886C7B01D40BC5B001714CD /* MultimediaNetManager.m */,
+				18D2ABA71D4AF39000019F3E /* LOLNetManager.h */,
+				18D2ABA81D4AF39000019F3E /* LOLNetManager.m */,
+				18D2ABAA1D4AF97A00019F3E /* LOLRequestPath.h */,
 			);
 			path = NetManager;
 			sourceTree = "<group>";
@@ -539,6 +637,12 @@
 		3886C0B51BD74A4A0014E661 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				18D2ABD11D4B04A600019F3E /* BestGroupCell.h */,
+				18D2ABD21D4B04A600019F3E /* BestGroupCell.m */,
+				18D2ABD31D4B04A600019F3E /* BestGroupDetailHeroCell.h */,
+				18D2ABD41D4B04A600019F3E /* BestGroupDetailHeroCell.m */,
+				18D2ABD51D4B04A600019F3E /* BestGroupDetailIntroCell.h */,
+				18D2ABD61D4B04A600019F3E /* BestGroupDetailIntroCell.m */,
 				18AAD5301D3E29BB00B33C74 /* TRImageView.h */,
 				18AAD5311D3E29BB00B33C74 /* TRImageView.m */,
 				18AAD52D1D3E297C00B33C74 /* GameInfoListCell.h */,
@@ -741,12 +845,17 @@
 				18AAD50E1D3E06A800B33C74 /* GameInfoViewController.m in Sources */,
 				18AAD5261D3E115200B33C74 /* GameInfoPicModel.m in Sources */,
 				3886C0BE1BD74AFE0014E661 /* BaseNetManager.m in Sources */,
+				18D2ABB71D4AFECA00019F3E /* BestGroupViewModel.m in Sources */,
 				18D37F861D3F4F48005D046B /* PoetryDetailViewController.m in Sources */,
 				1886C7C91D42042C001714CD /* MusicListViewController.m in Sources */,
 				1886C7C31D4203A2001714CD /* MusicCategoryViewModel.m in Sources */,
+				18D2ABA91D4AF39000019F3E /* LOLNetManager.m in Sources */,
 				1886C7B11D40BC5B001714CD /* MultimediaNetManager.m in Sources */,
 				1886C7AC1D40BBB4001714CD /* RankingListModel.m in Sources */,
+				18D2ABB91D4AFECA00019F3E /* ToolMenuViewModel.m in Sources */,
+				18D2ABD01D4B037D00019F3E /* ZBItemViewController.m in Sources */,
 				18D37F7A1D3E752B005D046B /* KindIntroViewController.m in Sources */,
+				18D2ABA01D4AF24600019F3E /* ZBCategoryModel.m in Sources */,
 				3804CE541BD758F10046C8C8 /* NSString+QRCode.m in Sources */,
 				18D37F891D3F7335005D046B /* SearchPoetryViewModel.m in Sources */,
 				1886C7D51D42147B001714CD /* MultimediaPlayView.m in Sources */,
@@ -756,36 +865,47 @@
 				18D37F801D3F35D9005D046B /* PoetryModel.m in Sources */,
 				18AAD4F91D3D0FFF00B33C74 /* KindModel.m in Sources */,
 				1886C7CF1D4204FC001714CD /* MusicDetailViewModel.m in Sources */,
+				18D2ABD81D4B04A600019F3E /* BestGroupDetailHeroCell.m in Sources */,
 				18AAD4FF1D3DCBAA00B33C74 /* PoetryViewController.m in Sources */,
 				3804CE531BD758F10046C8C8 /* NSString+PJR.m in Sources */,
 				3885C8F91BE8E96A009441EA /* PSCollectionView.m in Sources */,
+				18D2ABCD1D4B037D00019F3E /* SumAbilityDetailViewController.m in Sources */,
 				3886C09B1BD748830014E661 /* AppDelegate.m in Sources */,
 				1886C7DE1D46F9EA001714CD /* CrosstalkCell.m in Sources */,
 				3885C8981BE8E88D009441EA /* iCarousel.m in Sources */,
 				18AAD50B1D3E067E00B33C74 /* LeftViewController.m in Sources */,
+				18D2ABCE1D4B037D00019F3E /* SumAbilityViewController.m in Sources */,
 				1886C7DB1D46F49A001714CD /* CrosstalkViewModel.m in Sources */,
+				18D2ABD91D4B04A600019F3E /* BestGroupDetailIntroCell.m in Sources */,
 				1886C7AB1D40BBB4001714CD /* AlbumModel.m in Sources */,
+				18D2ABBB1D4AFECA00019F3E /* ZBItemViewModel.m in Sources */,
 				1886C7E71D4714CC001714CD /* VideoCell.m in Sources */,
 				18AAD5171D3E101000B33C74 /* GameInfoPicViewController.m in Sources */,
+				18D2AB9A1D4AF15300019F3E /* ToolMenuModel.m in Sources */,
+				18D2ABCF1D4B037D00019F3E /* ZBCategoryViewController.m in Sources */,
 				3804CE511BD758F10046C8C8 /* AppDelegate+Category.m in Sources */,
-				1886C7EA1D48EED0001714CD /* LOLTabBarController.m in Sources */,
 				18AAD5321D3E29BB00B33C74 /* TRImageView.m in Sources */,
 				18AAD5111D3E0F7A00B33C74 /* GameInfoListViewController.m in Sources */,
 				1886C7CC1D420488001714CD /* MusicCategoryCell.m in Sources */,
 				1886C7D21D42052B001714CD /* MusicDetailCell.m in Sources */,
+				18D2ABCC1D4B037D00019F3E /* BestGroupViewController.m in Sources */,
 				18AAD5351D3E2A3700B33C74 /* GameInfoImageCell.m in Sources */,
 				18AAD5201D3E10EC00B33C74 /* GameInfoNetManager.m in Sources */,
 				18AAD51D1D3E10A200B33C74 /* GameInfoPicViewModel.m in Sources */,
 				1886C7C01D40CF8A001714CD /* CrosstalkViewController.m in Sources */,
 				3886C0BB1BD74AE90014E661 /* BaseViewModel.m in Sources */,
+				18D2ABBE1D4AFF5B00019F3E /* LOLViewController.m in Sources */,
 				1886C7BA1D40CF2B001714CD /* MusicViewController.m in Sources */,
 				18AAD52C1D3E1C9A00B33C74 /* Factory.m in Sources */,
 				1886C7E11D470DEB001714CD /* VideoModel.m in Sources */,
+				18D2AB9D1D4AF1E800019F3E /* BestGroupModel.m in Sources */,
 				18AAD5141D3E0FE400B33C74 /* GameInfoHtmlViewController.m in Sources */,
 				3885C8FB1BE8E96A009441EA /* README.md in Sources */,
+				18D2ABBA1D4AFECA00019F3E /* ZBCategoryViewModel.m in Sources */,
 				18AAD5231D3E113700B33C74 /* GameInfoModel.m in Sources */,
 				1886C7D81D46EC4F001714CD /* CrosstalkModel.m in Sources */,
 				18D37F7D1D3F357D005D046B /* PoetryListViewController.m in Sources */,
+				18D2ABA31D4AF2BB00019F3E /* ZBItemModel.m in Sources */,
 				18AAD4FC1D3D176E00B33C74 /* KindViewModel.m in Sources */,
 				3886C0C11BD74B090014E661 /* BaseModel.m in Sources */,
 				1886C7BD1D40CF58001714CD /* VideoViewController.m in Sources */,
@@ -793,6 +913,10 @@
 				3886C0981BD748830014E661 /* main.m in Sources */,
 				1886C7B71D40CE4B001714CD /* MultimediaTabBarController.m in Sources */,
 				3804CE521BD758F10046C8C8 /* NSObject+Common.m in Sources */,
+				18D2ABA61D4AF2FC00019F3E /* SumAbilityModel.m in Sources */,
+				18D2ABD71D4B04A600019F3E /* BestGroupCell.m in Sources */,
+				18D2ABB81D4AFECA00019F3E /* SumAbilityViewModel.m in Sources */,
+				18D2ABCB1D4B037D00019F3E /* BestGroupDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

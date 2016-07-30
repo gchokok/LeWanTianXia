@@ -78,6 +78,8 @@
 }
 
 #pragma mark - UITableViewDelegate
+kRemoveCellSeparator
+
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     return self.poetryVM.rowNumber;
 }

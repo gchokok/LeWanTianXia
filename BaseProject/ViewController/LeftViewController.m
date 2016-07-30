@@ -10,7 +10,7 @@
 #import <NSString+Icons.h>
 #import "GameInfoViewController.h"
 #import "PoetryViewController.h"
-#import "LOLTabBarController.h"
+#import "LOLViewController.h"
 #import "MultimediaTabBarController.h"
 
 @interface LeftViewController ()<UITableViewDelegate, UITableViewDataSource>
@@ -58,19 +58,19 @@ kRemoveCellSeparator
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     switch (indexPath.row) {
         case 0:
-            [self.sideMenuViewController setContentViewController:[GameInfoViewController standardInstance] animated:YES];
+            [self.sideMenuViewController setContentViewController:[GameInfoViewController sharedInstance] animated:YES];
             [self.sideMenuViewController hideMenuViewController];
             break;
         case 1:
-            [self.sideMenuViewController setContentViewController:[PoetryViewController standardInstance] animated:YES];
+            [self.sideMenuViewController setContentViewController:[PoetryViewController sharedInstance] animated:YES];
             [self.sideMenuViewController hideMenuViewController];
             break;
         case 2:
-            [self.sideMenuViewController setContentViewController:[LOLTabBarController standardInstance] animated:YES];
+            [self.sideMenuViewController setContentViewController:[LOLViewController sharedInstance] animated:YES];
             [self.sideMenuViewController hideMenuViewController];
             break;
         case 3:
-            [self.sideMenuViewController setContentViewController:[MultimediaTabBarController standardInstance] animated:YES];
+            [self.sideMenuViewController setContentViewController:[MultimediaTabBarController sharedInstance] animated:YES];
             [self.sideMenuViewController hideMenuViewController];
             break;
         default:

@@ -9,6 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface MultimediaTabBarController : UITabBarController
-+ (MultimediaTabBarController *)standardInstance;
++ (MultimediaTabBarController *)sharedInstance;
 
 @end

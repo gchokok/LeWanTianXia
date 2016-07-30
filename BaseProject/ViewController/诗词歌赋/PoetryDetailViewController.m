@@ -77,6 +77,8 @@
 */
 
 #pragma mark - UITableView
+kRemoveCellSeparator
+
 -(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
     return 2;
 }

@@ -41,13 +41,15 @@
     // Dispose of any resources that can be recreated.
 }
 
+kRemoveCellSeparator
+
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     return self.talkVM.rowNumber;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     CrosstalkCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell"];
-    [cell.coverIV.imageView setImageWithURL:[self.talkVM imageURLForRow:indexPath.row] placeholderImage:[UIImage imageNamed:@"cell_bg_noData_1"]];
+    [cell.coverIV.imageView setImageWithURL:[self.talkVM imageURLForRow:indexPath.row] placeholderImage:[UIImage imageNamed:@"xxxxx"]];
     cell.titleLb.text = [self.talkVM titleForRow:indexPath.row];
     cell.playtimesLb.text = [self.talkVM playtimesForRow:indexPath.row];
     cell.likesLb.text = [self.talkVM likesForRow:indexPath.row];

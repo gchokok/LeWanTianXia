@@ -171,14 +171,14 @@
         GameInfoImageCell *cell = [tableView dequeueReusableCellWithIdentifier:@"ImageCell"];
         cell.titleLb.text = [self.gameVM titleForRowInList:indexPath.row];
         cell.clicksNumLb.text = [self.gameVM clicksForRowInList:indexPath.row];
-        [cell.iconIV0.imageView setImageWithURL:[self.gameVM iconURLSForRowInList:indexPath.row][0] placeholderImage:[UIImage imageNamed:@"cell_bg_noData_1"]];
-        [cell.iconIV1.imageView setImageWithURL:[self.gameVM iconURLSForRowInList:indexPath.row][1] placeholderImage:[UIImage imageNamed:@"cell_bg_noData_1"]];
-        [cell.iconIV2.imageView setImageWithURL:[self.gameVM iconURLSForRowInList:indexPath.row][2] placeholderImage:[UIImage imageNamed:@"cell_bg_noData_1"]];
+        [cell.iconIV0.imageView setImageWithURL:[self.gameVM iconURLSForRowInList:indexPath.row][0] placeholderImage:[UIImage imageNamed:@"xxxxx"]];
+        [cell.iconIV1.imageView setImageWithURL:[self.gameVM iconURLSForRowInList:indexPath.row][1] placeholderImage:[UIImage imageNamed:@"xxxxx"]];
+        [cell.iconIV2.imageView setImageWithURL:[self.gameVM iconURLSForRowInList:indexPath.row][2] placeholderImage:[UIImage imageNamed:@"xxxxx"]];
         return cell;
     }
     GameInfoListCell *cell = [tableView dequeueReusableCellWithIdentifier:@"ListCell" forIndexPath:indexPath];
     //placeholderImage当图片没有下载完成之前显示的图片
-    [cell.iconIV.imageView setImageWithURL:[self.gameVM iconURLForRowInList:indexPath.row] placeholderImage:[UIImage imageNamed:@"cell_bg_noData_5"]];
+    [cell.iconIV.imageView setImageWithURL:[self.gameVM iconURLForRowInList:indexPath.row] placeholderImage:[UIImage imageNamed:@"xxxxx"]];
     cell.titleLb.text = [self.gameVM titleForRowInList:indexPath.row];
     cell.longTitleLb.text = [self.gameVM descForRowInList:indexPath.row];
     cell.clicksNumLb.text = [self.gameVM clicksForRowInList:indexPath.row];

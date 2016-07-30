@@ -87,6 +87,8 @@
 	return _videoVM;
 }
 
+kRemoveCellSeparator
+
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     return 1;
 }
@@ -101,7 +103,7 @@
     cell.descLb.text = [self.videoVM descForRow:indexPath.section];
     cell.playLB.text = [self.videoVM playForRow:indexPath.section];
     cell.timeLB.text = [self.videoVM timeForRow:indexPath.section];
-    [cell.iconBtn setBackgroundImageForState:0 withURL:[self.videoVM iconURLForRow:indexPath.section] placeholderImage:[UIImage imageNamed:@"cell_bg_noData_1"]];
+    [cell.iconBtn setBackgroundImageForState:0 withURL:[self.videoVM iconURLForRow:indexPath.section] placeholderImage:[UIImage imageNamed:@"xxxxx"]];
     cell.videoURL = [self.videoVM videoURLForRow:indexPath.section];
     return cell;
 }

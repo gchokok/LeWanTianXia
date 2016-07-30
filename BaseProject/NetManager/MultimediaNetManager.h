@@ -7,7 +7,7 @@
 //
 
 #import "BaseNetManager.h"
-#import "Multimedia.h"
+#import "MultimediaModel.h"
 
 @interface MultimediaNetManager : BaseNetManager
 

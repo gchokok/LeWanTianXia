@@ -23,5 +23,9 @@ MJCodingImplementation
     return db;
 }
 
++ (NSDictionary *)replacedKeyFromPropertyName{
+    return @{@"typeName": @"typename", @"ID": @"id", @"desc": @"description"};
+}
+
 @end
 

@@ -15,7 +15,7 @@
 
 @implementation GameInfoViewController
 
-+ (UINavigationController *)standardInstance{
++ (UINavigationController *)sharedInstance{
     static UINavigationController *navi = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
@@ -25,6 +25,7 @@
         //vc setValue:[values[0]] forKey:keys[0]
         vc.keys = [self vcKeys];
         vc.values = [self vcValues];
+        vc.menuViewStyle = WMMenuViewStyleLine;
         navi = [[UINavigationController alloc] initWithRootViewController:vc];
     });
     return navi;
