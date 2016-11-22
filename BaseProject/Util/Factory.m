@@ -2,7 +2,7 @@
 //  Factory.m
 //  BaseProject
 //
-//  Created by jiyingxin on 15/11/5.
+//  Created by gaochen on 15/11/5.
 //  Copyright © 2015年 Tarena. All rights reserved.
 //
 

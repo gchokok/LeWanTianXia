@@ -42,7 +42,7 @@
 /** 提供每个VC对应的key值数组 */
 + (NSMutableArray *)vcKeys{
     NSMutableArray *arr = [NSMutableArray new];
-    for (id obj in [self itemNames]) {
+    for (int i = 0; i <[self itemNames].count; i++) {
         [arr addObject:@"infoType"];
     }
     return arr;
@@ -55,7 +55,7 @@
 /** 提供每个题目对应的控制器的类型。题目和类型数量必须一致 */
 + (NSArray *)viewControllerClasses{
     NSMutableArray *arr = [NSMutableArray new];
-    for (id obj in [self itemNames]) {
+    for (int i = 0; i <[self itemNames].count; i++) {
         [arr addObject:[GameInfoListViewController class]];
     }
     return [arr copy];

@@ -196,7 +196,7 @@ static inline NSInteger PSCollectionIndexForKey(NSString *key) {
         [self relayoutViews];
     } else {
         // Recycles cells
-        CGFloat diff = fabsf(self.lastOffset - self.contentOffset.y);
+        CGFloat diff = fabs(self.lastOffset - self.contentOffset.y);
         
         if (diff > self.offsetThreshold) {
             self.lastOffset = self.contentOffset.y;

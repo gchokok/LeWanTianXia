@@ -2,7 +2,7 @@
 //  VideoViewModel.h
 //  BaseProject
 //
-//  Created by jiyingxin on 15/10/27.
+//  Created by gaochen on 15/10/27.
 //  Copyright © 2015年 Tarena. All rights reserved.
 //
 

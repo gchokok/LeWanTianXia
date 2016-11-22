@@ -2,7 +2,7 @@
 //  SumAbilityViewController.m
 //  BaseProject
 //
-//  Created by jiyingxin on 15/11/12.
+//  Created by gaochen on 15/11/12.
 //  Copyright © 2015年 Tarena. All rights reserved.
 //
 

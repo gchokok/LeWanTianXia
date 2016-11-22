@@ -2,7 +2,7 @@
 //  TRImageView.m
 //  BaseProject
 //
-//  Created by tarena-ZeRO on 15/11/6.
+//  Created by gaochen on 15/11/6.
 //  Copyright © 2015年 Tarena. All rights reserved.
 //
 

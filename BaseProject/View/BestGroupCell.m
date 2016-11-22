@@ -2,7 +2,7 @@
 //  BestGroupCell.m
 //  BaseProject
 //
-//  Created by jiyingxin on 15/11/11.
+//  Created by gaochen on 15/11/11.
 //  Copyright © 2015年 Tarena. All rights reserved.
 //
 
@@ -115,6 +115,7 @@
 }
 
 - (void)awakeFromNib {
+    [super awakeFromNib];
     // Initialization code
 }
 

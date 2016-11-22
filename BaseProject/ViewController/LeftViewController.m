@@ -2,7 +2,7 @@
 //  LeftViewController.m
 //  BaseProject
 //
-//  Created by jiyingxin on 15/11/5.
+//  Created by gaochen on 15/11/5.
 //  Copyright © 2015年 Tarena. All rights reserved.
 //
 
@@ -30,12 +30,7 @@
         _tableView.tableFooterView=[UIView new];
         [self.view addSubview:_tableView];
         _tableView.backgroundColor=[UIColor clearColor];
-        [_tableView mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.size.mas_equalTo(CGSizeMake(kWindowW/2, kWindowH/2));
-            make.centerY.mas_equalTo(0);
-            make.left.mas_equalTo(0);
-        }];
-//去掉分割线
+        //去掉分割线
         _tableView.separatorStyle=UITableViewCellSeparatorStyleNone;
     }
     return _tableView;
@@ -79,7 +74,19 @@ kRemoveCellSeparator
 }
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+//  Do any additional setup after loading the view.
+    FBShimmeringView *sv = [FBShimmeringView new];
+    [self.view addSubview:sv];
+    [sv mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.size.mas_equalTo(CGSizeMake(kWindowW/2, kWindowH/2));
+        make.centerY.mas_equalTo(0);
+        make.left.mas_equalTo(0);
+    }];
+    sv.contentView = self.tableView;
+    [self.tableView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.edges.mas_equalTo(0);
+    }];
+    sv.shimmering = YES;
 //必须触发一下tableView的懒加载才可以
     [self.tableView reloadData];
 }

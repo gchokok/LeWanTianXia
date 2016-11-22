@@ -1299,7 +1299,6 @@
 		A3EAC5CD17EBB64E977C46632DB55C6A /* MJRefreshNormalHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshNormalHeader.h; path = MJRefresh/Custom/Header/MJRefreshNormalHeader.h; sourceTree = "<group>"; };
 		A43C83591F40BECE44B98AA2E3FA8065 /* NSMutableArray+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+BlocksKit.m"; path = "BlocksKit/Core/NSMutableArray+BlocksKit.m"; sourceTree = "<group>"; };
 		A4555FCBADAFAA8FA44E995B6DBCD1E7 /* MWGridViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MWGridViewController.m; path = Pod/Classes/MWGridViewController.m; sourceTree = "<group>"; };
-		A46E8D4ED20935BD2118B155F666428B /* UMMobClick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UMMobClick.framework; path = umsdk_IOS_analyics_idfa_v4.0.4/UMMobClick.framework; sourceTree = "<group>"; };
 		A492FD79C5EA9A55FA6F330BEB0CDC54 /* ASViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ASViewController.h; path = AsyncDisplayKit/ASViewController.h; sourceTree = "<group>"; };
 		A4D3A28D9F5CCF9E0E259BCC26B3E913 /* NSObject+MJProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJProperty.m"; path = "MJExtension/NSObject+MJProperty.m"; sourceTree = "<group>"; };
 		A4EAE955D2F0872AC9BB1A756F07CF43 /* ASDealloc2MainObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ASDealloc2MainObject.h; path = AsyncDisplayKit/Details/ASDealloc2MainObject.h; sourceTree = "<group>"; };
@@ -2361,7 +2360,6 @@
 				F8484F16A0773568058413FF12C7137E /* SVProgressHUD */,
 				ED982CFD92DC4A213B45FD7CBCAE57D4 /* SWTableViewCell */,
 				51FD786A1F9D7B87B2B8D3504D7CE67B /* TPKeyboardAvoiding */,
-				96F125B3098BE762F6FA60C3A65A79E9 /* UMengAnalytics */,
 				101331873266DA14EC9E5A1CB81888E3 /* WMPageController */,
 			);
 			name = Pods;
@@ -2566,14 +2564,6 @@
 			path = "../Target Support Files/RESideMenu";
 			sourceTree = "<group>";
 		};
-		96F125B3098BE762F6FA60C3A65A79E9 /* UMengAnalytics */ = {
-			isa = PBXGroup;
-			children = (
-				AA0BC8C14DE793405DDAD38A78B660AB /* Frameworks */,
-			);
-			path = UMengAnalytics;
-			sourceTree = "<group>";
-		};
 		999D19C1C09142F9DCECAED907468C7F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -2672,14 +2662,6 @@
 				79EE7FBE53440EC8B453E9B214EBFE6C /* UIWebView+AFNetworking.m */,
 			);
 			name = UIKit;
-			sourceTree = "<group>";
-		};
-		AA0BC8C14DE793405DDAD38A78B660AB /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				A46E8D4ED20935BD2118B155F666428B /* UMMobClick.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		AA974B1F211AB40B5DB652612B026BE1 /* Support Files */ = {

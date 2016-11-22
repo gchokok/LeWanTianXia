@@ -2,7 +2,7 @@
 //  NSObject+Common.h
 //  FDPublic
 //
-//  Created by jiyingxin on 15/6/19.
+//  Created by gaochen on 15/6/19.
 //  Copyright (c) 2015年 timShadow. All rights reserved.
 //
 
